@@ -12,12 +12,6 @@ class User {
 
   @Column()
   email : string;
-
-  @Column()
-  telefone : string;
-
-  @Column()
-  email_verificado : boolean;
   
   @Column()
   password : string;
