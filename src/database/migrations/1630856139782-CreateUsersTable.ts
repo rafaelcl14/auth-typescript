@@ -20,6 +20,15 @@ export class CreateUsersTable1630856139782 implements MigrationInterface {
                     isUnique: true,
                 },
                 { 
+                    name: 'telefone',
+                    type: 'varchar',
+                    
+                },
+                { 
+                    name: 'email_verificado',
+                    type: 'boolean',
+                },
+                { 
                     name: 'password',
                     type: 'varchar',
                 }

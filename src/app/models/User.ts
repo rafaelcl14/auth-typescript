@@ -8,7 +8,16 @@ class User {
   id_user: String;
 
   @Column()
+  nome : string;
+
+  @Column()
   email : string;
+
+  @Column()
+  telefone : string;
+
+  @Column()
+  email_verificado : boolean;
   
   @Column()
   password : string;
