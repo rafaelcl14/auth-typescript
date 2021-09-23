@@ -17,7 +17,7 @@ export default async function sendMyNotification({
     secure: false,
     auth: {
       user: 'rafaelagenciapremium@gmail.com',
-      pass: '+556999842623'
+      pass: ''
     }
   })
   await trasporter.sendMail({
